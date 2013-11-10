@@ -1,0 +1,38 @@
+[user]
+name = Shawn King
+email = sking@virtualhold.com
+
+[color]
+diff = auto
+status = auto
+branch = auto
+
+[alias]
+  st = status
+  ci = commit -v
+  co = checkout
+  d  = diff
+  di = diff
+  dc = diff --cached
+  cl = clone
+  pr = pull --rebase
+  cm = commit -m
+  ammend = commit --amend
+  put = push origin HEAD
+  recommit = commit --amend -C HEAD
+  br = branch
+  aa = add --all
+  unstage = reset HEAD --
+  last = log -1 HEAD
+  sha = log --format="%H" -n 1
+  logx = log --format='%C(yellow)%h%Creset%Cgreen%d%Creset, %s %Cblue%ar by %an%Creset' --graph
+  lg = log -p
+  ra = log --format='%C(yellow)%h%Creset%Cgreen%d%Creset, %s %Cblue%ar by %an%Creset' --graph -15
+  rap = log --format='%n----------------------------------------%n%n%C(yellow)%h%Creset%Cgreen%d%Creset, %s %Cblue%ar by %an%Creset' --graph -15 -p
+  belongs-to = name-rev --name-only
+  dt = difftool
+  ls = ls-tree -r --name-only HEAD
+  serve = daemon --reuseaddr --verbose  --base-path=. --export-all ./.git
+  holdin = stash list
+  stashall = stash -k
+  stashdiff = stash show -p stash@{0}

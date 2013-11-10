@@ -1,0 +1,4 @@
+--ignore-dir=tmp
+--ignore-dir=dist
+--ignore-dir=vendor
+--ignore-dir=node_modules
