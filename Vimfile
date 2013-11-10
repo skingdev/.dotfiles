@@ -1,0 +1,52 @@
+Bundle 'mileszs/ack.vim'
+Bundle 'rbgrouleff/bclose.vim'
+Bundle 'vim-scripts/ctags.vim'
+
+Bundle 'mattn/gist-vim'
+
+Bundle 'scrooloose/syntastic'
+
+Bundle 'godlygeek/tabular'
+
+Bundle 'marijnh/tern_for_vim'
+
+" Colors
+Bundle 'altercation/vim-colors-solarized'
+
+Bundle 'lambdatoast/elm.vim'
+
+Bundle 'lukerandall/haskellmode-vim'
+Bundle 'eagletmt/ghcmod-vim'
+Bundle 'ujihisa/neco-ghc'
+
+Bundle 'nono/vim-handlebars'
+
+Bundle 'tsaleh/vim-matchit'
+Bundle 'kana/vim-textobj-user'
+Bundle 'nelstrom/vim-textobj-rubyblock'
+
+Bundle 'vim-ruby/vim-ruby'
+
+" Syntax Plugins
+Bundle 'hail2u/vim-css3-syntax'
+
+Bundle 'leafgarland/typescript-vim'
+
+Bundle 'Shougo/vimproc.vim'
+Bundle 'mattn/webapi-vim'
+
+Bundle 'tpope/vim-liquid'
+
+Bundle 'juvenn/mustache.vim'
+
+Bundle 'danro/rename.vim'
+
+" With thanks to tpope
+Bundle 'tpope/vim-fugitive'
+Bundle 'tpope/vim-surround'
+Bundle 'tpope/vim-bundler'
+Bundle 'tpope/vim-commentary'
+Bundle 'tpope/vim-cucumber'
+Bundle 'tpope/vim-rails'
+Bundle 'tpope/vim-rake'
+Bundle 'tpope/vim-unimpaired'
